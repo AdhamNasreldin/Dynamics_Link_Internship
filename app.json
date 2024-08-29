@@ -1,0 +1,32 @@
+{
+  "id": "92de402c-b37b-4824-ab9a-4d5612675383",
+  "name": "ALProject1",  
+  "publisher": "Dynamics Link",
+  "version": "1.0.0.0",
+  "brief": "Adham's first Business Central extension",
+  "description": "We are trying to create our business central extension adding the pop up hello user",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "https://calendar.google.com/calendar/u/0/r/month",
+  "logo": "res/asu.jpg",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "24.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50200
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "13.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "version": "0.2.1",
+    "configurations": [
+        {
+            "name": "Your own server",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://localhost:8080/BC240/", // local hosting 
+            "serverInstance": "BC240",
+            "authentication": "Windows", //3shan yft7 bl windows 
+            "port":7049, // port ely bnpublish beh 
+            "startupObjectId": 50103,
+            "startupObjectType": "Report",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "default",
+            "schemaUpdateMode": "ForceSync",// dy mohma gdaaan 3shan lw enta 3mlt update fl scheme (structure el project) myedrabsh error 
+            "usePublicURLFromServer": true, 
+        }
+    ]
+}
