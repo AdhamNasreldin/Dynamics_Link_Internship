@@ -3,6 +3,7 @@ report 50102 "Vendor Purchases"
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
     DefaultLayout = RDLC;
+    Caption = 'vendors Table';
     RDLCLayout = './test1.rdl';
 
 
@@ -14,7 +15,7 @@ report 50102 "Vendor Purchases"
             { }
             column("Vendor_Name"; "Purchase Header"."Buy-from Vendor Name")
             { }
-
+            column(VAT_Registration_No_; "Purchase Header"."VAT Registration No.") { }
             column("Vendor_Items"; "Purchase Header"."Invoice Discount Amount")
             { }
             trigger OnPreDataItem()

@@ -2,7 +2,7 @@ report 50107 "Purchased Item Report"
 {
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
-    Caption = 'vendor items';
+    Caption = 'Purchase Items';
     DefaultLayout = RDLC;
     RDLCLayout = './tst13.rdl';
 

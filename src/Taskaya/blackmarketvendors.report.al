@@ -3,6 +3,7 @@ report 50103 "Black Market Vendors"
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
     DefaultLayout = RDLC;
+    Caption = 'Black_market_vendors';
     RDLCLayout = './tst99.rdl';
 
 

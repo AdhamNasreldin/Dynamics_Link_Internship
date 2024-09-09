@@ -3,6 +3,7 @@ report 50109 "vendors items"
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
     DefaultLayout = RDLC;
+    Caption = 'vendor items';
     RDLCLayout = './tst22.rdl';
 
     dataset
